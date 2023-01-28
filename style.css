@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    flood-color: rgb(67, 75, 77);
+    font-weight: bolder;
+}
+.sub-title{
+    color: rgb(240, 120, 76);
+    font-size: 25px;
+}
+.orange{
+    color: orange;
+}
+.peragraph{
+    color: dimgray;
+    text-align:justify;
+}
+.button{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+}
+.half{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+}
+img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+.dream-sub-titile{
+    color: rgb(240, 120, 76);
+    font-size: 20px;    
+}
+.big-dream ,h2{
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-title{
+    font-size: 30px;
+    color: rgb(38, 52, 61);
+    font-weight: bolder;
+}
+.time{
+    color: rgb(240, 120, 76);
+}
+.exp{
+    height: 600px;
+}
+.shedow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 400px;
+    background-color: #fff;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+}
+.button:hover{
+    background-image: linear-gradient(45deg, #24C6DC, #514A9D);
+    color: #e92300;
+}
